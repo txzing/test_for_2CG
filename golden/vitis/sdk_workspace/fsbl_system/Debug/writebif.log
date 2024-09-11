@@ -1,0 +1,74 @@
+TRACE::2024-08-14.13:30:22::SCWBifWriter::Found the complete platform C:/Users/txzing/Desktop/test_for_2cg/golden/vitis/sdk_workspace/system_wrapper/export/system_wrapper/system_wrapper.xpfm
+TRACE::2024-08-14.13:30:22::SCWBifWriter::hardware databse : system_wrapper_0
+TRACE::2024-08-14.13:30:22::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-14.13:30:22::SCWBifWriter::Found a baremetal domain, proc: psu_cortexa53_0
+TRACE::2024-08-14.13:30:22::SCWBifWriter::proc type : 
+TRACE::2024-08-14.13:30:22::SCWBifWriter::proc[0] : psu_cortexa53_0
+TRACE::2024-08-14.13:30:22::SCWBifWriter::Device type is : zynqMP
+TRACE::2024-08-14.13:30:22::SCWBifWriter::Writing BIF to file : C:/Users/txzing/Desktop/test_for_2cg/golden/vitis/sdk_workspace/fsbl_system/Debug/system.bif
+TRACE::2024-08-14.13:30:22::SCWBifWriter::Writing the ZynqMP baremetal bif 
+TRACE::2024-08-14.13:30:22::SCWBifWriter::System Command Ran  D:/Vivado/Vitis/2020.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/Users/txzing/Desktop/test_for_2cg/golden/vitis/sdk_workspace/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf
+TRACE::2024-08-14.13:30:22::SCWBifWriter:: Command Ran  D:/Vivado/Vitis/2020.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/Users/txzing/Desktop/test_for_2cg/golden/vitis/sdk_workspace/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf
+TRACE::2024-08-14.13:30:22::SCWBifWriter::FSBL processor, command ran D:/Vivado/Vitis/2020.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/Users/txzing/Desktop/test_for_2cg/golden/vitis/sdk_workspace/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf
+TRACE::2024-08-14.13:30:22::SCWBifWriter::FSBL target processor is a53-0
+TRACE::2024-08-14.13:30:22::SCWBifWriter::Boot processor is :a53-0
+TRACE::2024-08-14.14:25:45::SCWBifWriter::Found the complete platform C:/Users/txzing/Desktop/test_for_2cg/golden/vitis/sdk_workspace/system_wrapper/export/system_wrapper/system_wrapper.xpfm
+TRACE::2024-08-14.14:25:45::SCWBifWriter::hardware databse : system_wrapper_0
+TRACE::2024-08-14.14:25:45::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-14.14:25:45::SCWBifWriter::Found a baremetal domain, proc: psu_cortexa53_0
+TRACE::2024-08-14.14:25:45::SCWBifWriter::proc type : 
+TRACE::2024-08-14.14:25:45::SCWBifWriter::proc[0] : psu_cortexa53_0
+TRACE::2024-08-14.14:25:45::SCWBifWriter::Device type is : zynqMP
+TRACE::2024-08-14.14:25:45::SCWBifWriter::Writing BIF to file : C:/Users/txzing/Desktop/test_for_2cg/golden/vitis/sdk_workspace/fsbl_system/Debug/system.bif
+TRACE::2024-08-14.14:25:45::SCWBifWriter::Writing the ZynqMP baremetal bif 
+TRACE::2024-08-14.14:25:45::SCWBifWriter::System Command Ran  D:/Vivado/Vitis/2020.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/Users/txzing/Desktop/test_for_2cg/golden/vitis/sdk_workspace/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf
+TRACE::2024-08-14.14:25:45::SCWBifWriter:: Removed readelf log file successfully
+TRACE::2024-08-14.14:25:45::SCWBifWriter:: Command Ran  D:/Vivado/Vitis/2020.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/Users/txzing/Desktop/test_for_2cg/golden/vitis/sdk_workspace/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf
+TRACE::2024-08-14.14:25:45::SCWBifWriter::FSBL processor, command ran D:/Vivado/Vitis/2020.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/Users/txzing/Desktop/test_for_2cg/golden/vitis/sdk_workspace/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf
+TRACE::2024-08-14.14:25:45::SCWBifWriter::FSBL target processor is a53-0
+TRACE::2024-08-14.14:25:45::SCWBifWriter::Boot processor is :a53-0
+TRACE::2024-08-14.14:26:03::SCWBifWriter::Found the complete platform C:/Users/txzing/Desktop/test_for_2cg/golden/vitis/sdk_workspace/system_wrapper/export/system_wrapper/system_wrapper.xpfm
+TRACE::2024-08-14.14:26:03::SCWBifWriter::hardware databse : system_wrapper_0
+TRACE::2024-08-14.14:26:03::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-14.14:26:03::SCWBifWriter::Found a baremetal domain, proc: psu_cortexa53_0
+TRACE::2024-08-14.14:26:03::SCWBifWriter::proc type : 
+TRACE::2024-08-14.14:26:03::SCWBifWriter::proc[0] : psu_cortexa53_0
+TRACE::2024-08-14.14:26:03::SCWBifWriter::Device type is : zynqMP
+TRACE::2024-08-14.14:26:03::SCWBifWriter::Writing BIF to file : C:/Users/txzing/Desktop/test_for_2cg/golden/vitis/sdk_workspace/fsbl_system/Debug/system.bif
+TRACE::2024-08-14.14:26:03::SCWBifWriter::Writing the ZynqMP baremetal bif 
+TRACE::2024-08-14.14:26:03::SCWBifWriter::System Command Ran  D:/Vivado/Vitis/2020.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/Users/txzing/Desktop/test_for_2cg/golden/vitis/sdk_workspace/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf
+TRACE::2024-08-14.14:26:03::SCWBifWriter:: Removed readelf log file successfully
+TRACE::2024-08-14.14:26:03::SCWBifWriter:: Command Ran  D:/Vivado/Vitis/2020.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/Users/txzing/Desktop/test_for_2cg/golden/vitis/sdk_workspace/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf
+TRACE::2024-08-14.14:26:03::SCWBifWriter::FSBL processor, command ran D:/Vivado/Vitis/2020.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/Users/txzing/Desktop/test_for_2cg/golden/vitis/sdk_workspace/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf
+TRACE::2024-08-14.14:26:03::SCWBifWriter::FSBL target processor is a53-0
+TRACE::2024-08-14.14:26:03::SCWBifWriter::Boot processor is :a53-0
+TRACE::2024-08-14.14:57:36::SCWBifWriter::Found the complete platform C:/Users/txzing/Desktop/test_for_2cg/golden/vitis/sdk_workspace/system_wrapper/export/system_wrapper/system_wrapper.xpfm
+TRACE::2024-08-14.14:57:36::SCWBifWriter::hardware databse : system_wrapper
+TRACE::2024-08-14.14:57:36::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-14.14:57:36::SCWBifWriter::Found a baremetal domain, proc: psu_cortexa53_0
+TRACE::2024-08-14.14:57:36::SCWBifWriter::proc type : 
+TRACE::2024-08-14.14:57:36::SCWBifWriter::proc[0] : psu_cortexa53_0
+TRACE::2024-08-14.14:57:36::SCWBifWriter::Device type is : zynqMP
+TRACE::2024-08-14.14:57:36::SCWBifWriter::Writing BIF to file : C:/Users/txzing/Desktop/test_for_2cg/golden/vitis/sdk_workspace/fsbl_system/Debug/system.bif
+TRACE::2024-08-14.14:57:36::SCWBifWriter::Writing the ZynqMP baremetal bif 
+TRACE::2024-08-14.14:57:36::SCWBifWriter::System Command Ran  D:/Vivado/Vitis/2020.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/Users/txzing/Desktop/test_for_2cg/golden/vitis/sdk_workspace/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf
+TRACE::2024-08-14.14:57:36::SCWBifWriter:: Removed readelf log file successfully
+TRACE::2024-08-14.14:57:36::SCWBifWriter:: Command Ran  D:/Vivado/Vitis/2020.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/Users/txzing/Desktop/test_for_2cg/golden/vitis/sdk_workspace/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf
+TRACE::2024-08-14.14:57:36::SCWBifWriter::FSBL processor, command ran D:/Vivado/Vitis/2020.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/Users/txzing/Desktop/test_for_2cg/golden/vitis/sdk_workspace/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf
+TRACE::2024-08-14.14:57:36::SCWBifWriter::FSBL target processor is a53-0
+TRACE::2024-08-14.14:57:36::SCWBifWriter::Boot processor is :a53-0
+TRACE::2024-08-14.14:57:51::SCWBifWriter::Found the complete platform C:/Users/txzing/Desktop/test_for_2cg/golden/vitis/sdk_workspace/system_wrapper/export/system_wrapper/system_wrapper.xpfm
+TRACE::2024-08-14.14:57:51::SCWBifWriter::hardware databse : system_wrapper
+TRACE::2024-08-14.14:57:51::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-14.14:57:51::SCWBifWriter::Found a baremetal domain, proc: psu_cortexa53_0
+TRACE::2024-08-14.14:57:51::SCWBifWriter::proc type : 
+TRACE::2024-08-14.14:57:51::SCWBifWriter::proc[0] : psu_cortexa53_0
+TRACE::2024-08-14.14:57:51::SCWBifWriter::Device type is : zynqMP
+TRACE::2024-08-14.14:57:51::SCWBifWriter::Writing BIF to file : C:/Users/txzing/Desktop/test_for_2cg/golden/vitis/sdk_workspace/fsbl_system/Debug/system.bif
+TRACE::2024-08-14.14:57:51::SCWBifWriter::Writing the ZynqMP baremetal bif 
+TRACE::2024-08-14.14:57:51::SCWBifWriter::System Command Ran  D:/Vivado/Vitis/2020.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/Users/txzing/Desktop/test_for_2cg/golden/vitis/sdk_workspace/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf
+TRACE::2024-08-14.14:57:51::SCWBifWriter:: Removed readelf log file successfully
+TRACE::2024-08-14.14:57:51::SCWBifWriter:: Command Ran  D:/Vivado/Vitis/2020.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/Users/txzing/Desktop/test_for_2cg/golden/vitis/sdk_workspace/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf
+TRACE::2024-08-14.14:57:51::SCWBifWriter::FSBL processor, command ran D:/Vivado/Vitis/2020.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/Users/txzing/Desktop/test_for_2cg/golden/vitis/sdk_workspace/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf
+TRACE::2024-08-14.14:57:51::SCWBifWriter::FSBL target processor is a53-0
+TRACE::2024-08-14.14:57:51::SCWBifWriter::Boot processor is :a53-0

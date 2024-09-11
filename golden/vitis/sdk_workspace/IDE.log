@@ -1,0 +1,79 @@
+13:20:30 INFO  : Registering command handlers for Vitis TCF services
+13:20:35 INFO  : Platform repository initialization has completed.
+13:20:36 INFO  : plnx-install-location is set to ''
+13:20:36 INFO  : Result from executing command 'getProjects': system_wrapper
+13:20:36 INFO  : Result from executing command 'getPlatforms': 
+13:20:40 INFO  : Result from executing command 'getProjects': system_wrapper
+13:20:40 INFO  : Result from executing command 'getPlatforms': system_wrapper|C:/Users/txzing/Desktop/test_for_2cg/golden/vitis/sdk_workspace/system_wrapper/export/system_wrapper/system_wrapper.xpfm
+13:20:40 INFO  : Result from executing command 'getProjects': system_wrapper
+13:20:40 INFO  : Result from executing command 'getPlatforms': system_wrapper|C:/Users/txzing/Desktop/test_for_2cg/golden/vitis/sdk_workspace/system_wrapper/export/system_wrapper/system_wrapper.xpfm
+13:20:41 INFO  : Result from executing command 'getProjects': system_wrapper
+13:20:41 INFO  : Result from executing command 'getPlatforms': system_wrapper|C:/Users/txzing/Desktop/test_for_2cg/golden/vitis/sdk_workspace/system_wrapper/export/system_wrapper/system_wrapper.xpfm
+13:24:21 INFO  : Result from executing command 'getProjects': system_wrapper
+13:24:21 INFO  : Result from executing command 'getPlatforms': system_wrapper|C:/Users/txzing/Desktop/test_for_2cg/golden/vitis/sdk_workspace/system_wrapper/export/system_wrapper/system_wrapper.xpfm
+13:24:21 INFO  : Result from executing command 'reportPlatform': {system_wrapper={standalone_domain={Os=standalone, DomainName=standalone_domain, CpuType=cortex-a53, CpuInstance=psu_cortexa53_0}, fsbl_domain={Os=standalone, DomainName=fsbl_domain, CpuType=cortex-a53, CpuInstance=psu_cortexa53_0}}}
+13:24:21 INFO  : Result from executing command 'reportPlatform': {system_wrapper={standalone_domain={Os=standalone, DomainName=standalone_domain, CpuType=cortex-a53, CpuInstance=psu_cortexa53_0}, fsbl_domain={Os=standalone, DomainName=fsbl_domain, CpuType=cortex-a53, CpuInstance=psu_cortexa53_0}}}
+13:24:34 INFO  : Successfully done query RDI_DATADIR 
+13:24:37 INFO  : Result from executing command 'reportPlatform': {system_wrapper={standalone_domain={Os=standalone, DomainName=standalone_domain, CpuType=cortex-a53, CpuInstance=psu_cortexa53_0}, fsbl_domain={Os=standalone, DomainName=fsbl_domain, CpuType=cortex-a53, CpuInstance=psu_cortexa53_0}}}
+13:24:37 INFO  : Result from executing command 'reportPlatform': {system_wrapper={standalone_domain={Os=standalone, DomainName=standalone_domain, CpuType=cortex-a53, CpuInstance=psu_cortexa53_0}, fsbl_domain={Os=standalone, DomainName=fsbl_domain, CpuType=cortex-a53, CpuInstance=psu_cortexa53_0}}}
+13:24:39 INFO  : Result from executing command 'reportApp': {fsblpath=C:/Users/txzing/Desktop/test_for_2cg/golden/vitis/sdk_workspace/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf, Platform Path=C:/Users/txzing/Desktop/test_for_2cg/golden/vitis/sdk_workspace/system_wrapper/export/system_wrapper/system_wrapper.xpfm, Domain=fsbl_domain, platform=system_wrapper}
+13:24:39 INFO  : Result from executing command 'reportPlatform': {system_wrapper={standalone_domain={Os=standalone, DomainName=standalone_domain, CpuType=cortex-a53, CpuInstance=psu_cortexa53_0}, fsbl_domain={Os=standalone, DomainName=fsbl_domain, CpuType=cortex-a53, CpuInstance=psu_cortexa53_0}}}
+13:24:39 INFO  : Result from executing command 'getDefinitions': {assembler-flags={description=Miscellaneous flags for assembler , props=add set}, build-config={values=Debug,Release, description=Get/set build configuration, props=set}, library-search-path={description=Search path for the libraries added, props=add remove}, compiler-misc={description=Compiler miscellaneous flags, props=add set}, define-compiler-symbols={description=Define symbols. Ex. MYSYMBOL, props=add remove}, compiler-optimization={values=None (-O0), Optimize (-O1), Optimize more (-O2), Optimize most (-O3), Optimize for size (-Os), description=Optimization level, props=set}, libraries={description=Libraries to be added while linking, props=add remove}, undef-compiler-symbols={description=Undefine symbols. Ex. MYSYMBOL, props=add remove}, linker-misc={description=Linker miscellaneous flags, props=add set}, include-path={description=Include path for header files, props=add remove}, linker-script={description=Linker script for linking the program sections, props=set}}
+13:24:39 INFO  : Result from executing command 'getProjects': fsbl;fsbl_system;system_wrapper;vitis_proj;vitis_proj_system
+13:24:39 INFO  : Result from executing command 'set': null
+13:24:39 INFO  : Result from executing command 'reportApp': {fsblpath=C:/Users/txzing/Desktop/test_for_2cg/golden/vitis/sdk_workspace/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf, Platform Path=C:/Users/txzing/Desktop/test_for_2cg/golden/vitis/sdk_workspace/system_wrapper/export/system_wrapper/system_wrapper.xpfm, Domain=fsbl_domain, platform=system_wrapper}
+13:24:39 INFO  : Result from executing command 'reportPlatform': {system_wrapper={standalone_domain={Os=standalone, DomainName=standalone_domain, CpuType=cortex-a53, CpuInstance=psu_cortexa53_0}, fsbl_domain={Os=standalone, DomainName=fsbl_domain, CpuType=cortex-a53, CpuInstance=psu_cortexa53_0}}}
+13:24:39 INFO  : Result from executing command 'getDefinitions': {assembler-flags={description=Miscellaneous flags for assembler , props=add set}, build-config={values=Debug,Release, description=Get/set build configuration, props=set}, library-search-path={description=Search path for the libraries added, props=add remove}, compiler-misc={description=Compiler miscellaneous flags, props=add set}, define-compiler-symbols={description=Define symbols. Ex. MYSYMBOL, props=add remove}, compiler-optimization={values=None (-O0), Optimize (-O1), Optimize more (-O2), Optimize most (-O3), Optimize for size (-Os), description=Optimization level, props=set}, libraries={description=Libraries to be added while linking, props=add remove}, undef-compiler-symbols={description=Undefine symbols. Ex. MYSYMBOL, props=add remove}, linker-misc={description=Linker miscellaneous flags, props=add set}, include-path={description=Include path for header files, props=add remove}, linker-script={description=Linker script for linking the program sections, props=set}}
+13:24:39 INFO  : Result from executing command 'getProjects': fsbl;fsbl_system;system_wrapper;vitis_proj;vitis_proj_system
+13:24:39 INFO  : Result from executing command 'add': null
+13:24:39 INFO  : Result from executing command 'reportApp': {fsblpath=C:/Users/txzing/Desktop/test_for_2cg/golden/vitis/sdk_workspace/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf, Platform Path=C:/Users/txzing/Desktop/test_for_2cg/golden/vitis/sdk_workspace/system_wrapper/export/system_wrapper/system_wrapper.xpfm, Domain=standalone_domain, platform=system_wrapper}
+13:24:39 INFO  : Result from executing command 'reportPlatform': {system_wrapper={standalone_domain={Os=standalone, DomainName=standalone_domain, CpuType=cortex-a53, CpuInstance=psu_cortexa53_0}, fsbl_domain={Os=standalone, DomainName=fsbl_domain, CpuType=cortex-a53, CpuInstance=psu_cortexa53_0}}}
+13:24:39 INFO  : Result from executing command 'getDefinitions': {assembler-flags={description=Miscellaneous flags for assembler , props=add set}, build-config={values=Debug,Release, description=Get/set build configuration, props=set}, library-search-path={description=Search path for the libraries added, props=add remove}, compiler-misc={description=Compiler miscellaneous flags, props=add set}, define-compiler-symbols={description=Define symbols. Ex. MYSYMBOL, props=add remove}, compiler-optimization={values=None (-O0), Optimize (-O1), Optimize more (-O2), Optimize most (-O3), Optimize for size (-Os), description=Optimization level, props=set}, libraries={description=Libraries to be added while linking, props=add remove}, undef-compiler-symbols={description=Undefine symbols. Ex. MYSYMBOL, props=add remove}, linker-misc={description=Linker miscellaneous flags, props=add set}, include-path={description=Include path for header files, props=add remove}, linker-script={description=Linker script for linking the program sections, props=set}}
+13:24:39 INFO  : Result from executing command 'getProjects': fsbl;fsbl_system;system_wrapper;vitis_proj;vitis_proj_system
+13:24:39 INFO  : Result from executing command 'add': null
+13:24:40 ERROR : xsct server communication channel has closed unexpectedly.
+java.net.SocketException: Connection reset
+	at java.base/java.net.SocketInputStream.read(Unknown Source)
+	at java.base/java.net.SocketInputStream.read(Unknown Source)
+	at java.base/java.io.BufferedInputStream.read1(Unknown Source)
+	at java.base/java.io.BufferedInputStream.read(Unknown Source)
+	at java.base/java.io.FilterInputStream.read(Unknown Source)
+	at org.eclipse.tcf.core.ChannelTCP.get(ChannelTCP.java:186)
+	at org.eclipse.tcf.core.StreamChannel.read(StreamChannel.java:85)
+	at org.eclipse.tcf.core.AbstractChannel$1.run(AbstractChannel.java:329)
+13:26:16 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\txzing\Desktop\test_for_2cg\golden\vitis\sdk_workspace\temp_xsdb_launch_script.tcl
+13:26:19 INFO  : XSCT server has started successfully.
+13:26:19 INFO  : plnx-install-location is set to ''
+13:26:19 INFO  : Successfully done setting XSCT server connection channel  
+13:26:19 INFO  : Successfully done setting workspace for the tool. 
+13:26:21 INFO  : Registering command handlers for Vitis TCF services
+13:26:21 INFO  : Successfully done query RDI_DATADIR 
+13:26:21 INFO  : Platform repository initialization has completed.
+13:29:58 INFO  : Result from executing command 'getProjects': system_wrapper
+13:29:58 INFO  : Result from executing command 'getPlatforms': system_wrapper|C:/Users/txzing/Desktop/test_for_2cg/golden/vitis/sdk_workspace/system_wrapper/export/system_wrapper/system_wrapper.xpfm
+13:29:58 INFO  : Checking for BSP changes to sync application flags for project 'fsbl'...
+13:30:27 INFO  : Checking for BSP changes to sync application flags for project 'vitis_proj'...
+14:25:43 INFO  : Checking for BSP changes to sync application flags for project 'fsbl'...
+14:25:50 INFO  : Checking for BSP changes to sync application flags for project 'vitis_proj'...
+14:26:01 INFO  : Checking for BSP changes to sync application flags for project 'fsbl'...
+14:26:07 INFO  : Checking for BSP changes to sync application flags for project 'vitis_proj'...
+14:56:36 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\txzing\Desktop\test_for_2cg\golden\vitis\sdk_workspace\temp_xsdb_launch_script.tcl
+14:56:38 INFO  : XSCT server has started successfully.
+14:56:38 INFO  : plnx-install-location is set to ''
+14:56:39 INFO  : Successfully done setting XSCT server connection channel  
+14:56:39 INFO  : Successfully done setting workspace for the tool. 
+14:56:43 INFO  : Platform repository initialization has completed.
+14:56:43 INFO  : Registering command handlers for Vitis TCF services
+14:56:43 INFO  : Successfully done query RDI_DATADIR 
+14:57:32 INFO  : Checking for BSP changes to sync application flags for project 'fsbl'...
+14:57:36 ERROR : (XSDB Server)ERROR: [Hsi 55-1571] The design file C:/Users/txzing/Desktop/test_for_2cg/golden/vitis/sdk_workspace/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa is already opened
+
+14:57:40 INFO  : Checking for BSP changes to sync application flags for project 'vitis_proj'...
+14:57:43 ERROR : (XSDB Server)ERROR: [Hsi 55-1571] The design file C:/Users/txzing/Desktop/test_for_2cg/golden/vitis/sdk_workspace/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa is already opened
+
+14:57:49 INFO  : Checking for BSP changes to sync application flags for project 'fsbl'...
+14:57:51 ERROR : (XSDB Server)ERROR: [Hsi 55-1571] The design file C:/Users/txzing/Desktop/test_for_2cg/golden/vitis/sdk_workspace/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa is already opened
+
+14:57:55 INFO  : Checking for BSP changes to sync application flags for project 'vitis_proj'...
+14:57:57 ERROR : (XSDB Server)ERROR: [Hsi 55-1571] The design file C:/Users/txzing/Desktop/test_for_2cg/golden/vitis/sdk_workspace/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa is already opened
+

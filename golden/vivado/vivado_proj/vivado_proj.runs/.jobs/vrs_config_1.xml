@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="system_xbar_0_synth_1" LaunchDir="C:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.runs/system_xbar_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_axi_gpio_0_0_synth_1" LaunchDir="C:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.runs/system_axi_gpio_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_AXI_LITE_REG_0_0_synth_1" LaunchDir="C:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.runs/system_AXI_LITE_REG_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_auto_pc_0_synth_1" LaunchDir="C:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.runs/system_auto_pc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_rst_ps8_0_100M_0_synth_1" LaunchDir="C:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.runs/system_rst_ps8_0_100M_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_zynq_ultra_ps_e_0_0_synth_1" LaunchDir="C:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.runs/system_zynq_ultra_ps_e_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="C:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="system_xbar_0_synth_1"/>
+		<Parent Id="system_axi_gpio_0_0_synth_1"/>
+		<Parent Id="system_AXI_LITE_REG_0_0_synth_1"/>
+		<Parent Id="system_auto_pc_0_synth_1"/>
+		<Parent Id="system_rst_ps8_0_100M_0_synth_1"/>
+		<Parent Id="system_zynq_ultra_ps_e_0_0_synth_1"/>
+	</Run>
+	<Run Id="impl_1" LaunchDir="C:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+		<Parent Id="synth_1"/>
+		<Parent Id="system_xbar_0_synth_1"/>
+		<Parent Id="system_axi_gpio_0_0_synth_1"/>
+		<Parent Id="system_AXI_LITE_REG_0_0_synth_1"/>
+		<Parent Id="system_auto_pc_0_synth_1"/>
+		<Parent Id="system_rst_ps8_0_100M_0_synth_1"/>
+		<Parent Id="system_zynq_ultra_ps_e_0_0_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

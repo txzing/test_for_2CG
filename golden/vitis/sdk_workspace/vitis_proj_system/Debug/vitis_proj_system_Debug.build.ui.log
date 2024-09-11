@@ -1,0 +1,10 @@
+2024-08-14T14:57:56.178170300255-14:57:56 **** Incremental Build of configuration Debug for project vitis_proj_system ****
+000-make all 
+000-Generating bif file for the system project
+000-generate_system_bif.bat 61643 C:/Users/txzing/Desktop/test_for_2cg/golden/vitis/sdk_workspace/system_wrapper/export/system_wrapper/system_wrapper.xpfm standalone_domain C:/Users/txzing/Desktop/test_for_2cg/golden/vitis/sdk_workspace/vitis_proj_system/Debug/system.bif
+000-sdcard_gen --xpfm C:/Users/txzing/Desktop/test_for_2cg/golden/vitis/sdk_workspace/system_wrapper/export/system_wrapper/system_wrapper.xpfm --sys_config system_wrapper --bif C:/Users/txzing/Desktop/test_for_2cg/golden/vitis/sdk_workspace/vitis_proj_system/Debug/system.bif --bitstream C:/Users/txzing/Desktop/test_for_2cg/golden/vitis/sdk_workspace/vitis_proj/_ide/bitstream/system_wrapper.bit --elf C:/Users/txzing/Desktop/test_for_2cg/golden/vitis/sdk_workspace/vitis_proj/Debug/vitis_proj.elf,psu_cortexa53_0
+000-creating BOOT.BIN using C:/Users/txzing/Desktop/test_for_2cg/golden/vitis/sdk_workspace/vitis_proj/_ide/bitstream/system_wrapper.bit
+000-Running D:/Vivado/Vitis/2020.1/bin/bootgen -arch zynqmp -image C:/Users/txzing/Desktop/test_for_2cg/golden/vitis/sdk_workspace/vitis_proj_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+00255-
+14:58:01 Build Finished (took 5s.272ms)
+

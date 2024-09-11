@@ -1,0 +1,33 @@
+nvidia
+
+
+sudo i2ctransfer -f -y 8 w2@0x40 0x01 0x02 r1
+
+
+nvidia@S11L-IPD:~$ sudo i2ctransfer -f -y 8 w2@0x40 0x01 0x02 r1
+[sudo] password for nvidia: 
+0x0a
+
+
+
+sudo nvsipl_camera -c "TN_IMX390_IMX728_X1F" -m '0x1111 0x1011 0x1111' --showfps -0 -1 --disableISP2Output -R -d 2
+
+
+sudo nvsipl_camera -c "TN_IMX390_IMX728_X1F" -m '0x1111 0x1011 0x1111' --showfps -0 -1 --disableISP2Output -R -d 2 && i2ctransfer -f -y 8 w2@0x40 0x01 0x02 r1
+
+
+dmesg | grep max
+
+/opt/other/eol/tn_eol_multicast -g TN_IMX390_IMX728_X1F -m "0x1111 0x1010 0x1111" -d stitch
+
+
+i2ctransfer -f -y 8 w2@0x40 0x01 0x02 r1
+i2ctransfer -f -y 8 w2@0x40 0x01 0x18 r1
+
+root 
+nvidia
+
+openwfd_nvsci_sample --sample 5 --splash -t 100000 &
+fg
+
+

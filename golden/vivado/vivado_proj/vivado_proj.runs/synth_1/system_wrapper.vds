@@ -1,0 +1,333 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon Aug 12 16:00:44 2024
+# Process ID: 1768
+# Current directory: C:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.runs/synth_1
+# Command line: vivado.exe -log system_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_wrapper.tcl
+# Log file: C:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.runs/synth_1/system_wrapper.vds
+# Journal file: C:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source system_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/txzing/Desktop/test_for_2cg/golden/vivado/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/Vivado/2020.1/data/ip'.
+Command: synth_design -top system_wrapper -part xczu2cg-sfvc784-1-e
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu2cg'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu2cg'
+INFO: [Device 21-403] Loading part xczu2cg-sfvc784-1-e
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 2520
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1567.816 ; gain = 74.906
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'system_wrapper' [C:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.srcs/sources_1/bd/system/hdl/system_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'IOBUF' [D:/Vivado/Vivado/2020.1/scripts/rt/data/unisim_comp.v:36238]
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'IOBUF' (1#1) [D:/Vivado/Vivado/2020.1/scripts/rt/data/unisim_comp.v:36238]
+INFO: [Synth 8-6157] synthesizing module 'system' [C:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.srcs/sources_1/bd/system/synth/system.v:593]
+INFO: [Synth 8-6157] synthesizing module 'system_AXI_LITE_REG_0_0' [C:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.runs/synth_1/.Xil/Vivado-1768-TX/realtime/system_AXI_LITE_REG_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'system_AXI_LITE_REG_0_0' (2#1) [C:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.runs/synth_1/.Xil/Vivado-1768-TX/realtime/system_AXI_LITE_REG_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'system_VERSION_0' [c:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.srcs/sources_1/bd/system/ip/system_VERSION_0/synth/system_VERSION_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_7_xlconstant' [c:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.srcs/sources_1/bd/system/ipshared/fcfc/hdl/xlconstant_v1_1_vl_rfs.v:23]
+	Parameter CONST_VAL bound to: 604508693 - type: integer 
+	Parameter CONST_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_7_xlconstant' (3#1) [c:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.srcs/sources_1/bd/system/ipshared/fcfc/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'system_VERSION_0' (4#1) [c:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.srcs/sources_1/bd/system/ip/system_VERSION_0/synth/system_VERSION_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'system_axi_gpio_0_0' [C:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.runs/synth_1/.Xil/Vivado-1768-TX/realtime/system_axi_gpio_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'system_axi_gpio_0_0' (5#1) [C:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.runs/synth_1/.Xil/Vivado-1768-TX/realtime/system_axi_gpio_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'system_ps8_0_axi_periph_0' [C:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.srcs/sources_1/bd/system/synth/system.v:872]
+INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_N6CHY9' [C:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.srcs/sources_1/bd/system/synth/system.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_N6CHY9' (6#1) [C:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.srcs/sources_1/bd/system/synth/system.v:12]
+INFO: [Synth 8-6157] synthesizing module 'm01_couplers_imp_1YGIC8G' [C:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.srcs/sources_1/bd/system/synth/system.v:144]
+INFO: [Synth 8-6155] done synthesizing module 'm01_couplers_imp_1YGIC8G' (7#1) [C:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.srcs/sources_1/bd/system/synth/system.v:144]
+INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_RR89KG' [C:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.srcs/sources_1/bd/system/synth/system.v:290]
+INFO: [Synth 8-6157] synthesizing module 'system_auto_pc_0' [C:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.runs/synth_1/.Xil/Vivado-1768-TX/realtime/system_auto_pc_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'system_auto_pc_0' (8#1) [C:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.runs/synth_1/.Xil/Vivado-1768-TX/realtime/system_auto_pc_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_RR89KG' (9#1) [C:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.srcs/sources_1/bd/system/synth/system.v:290]
+INFO: [Synth 8-6157] synthesizing module 'system_xbar_0' [C:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.runs/synth_1/.Xil/Vivado-1768-TX/realtime/system_xbar_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'system_xbar_0' (10#1) [C:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.runs/synth_1/.Xil/Vivado-1768-TX/realtime/system_xbar_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'system_ps8_0_axi_periph_0' (11#1) [C:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.srcs/sources_1/bd/system/synth/system.v:872]
+INFO: [Synth 8-6157] synthesizing module 'system_rst_ps8_0_100M_0' [C:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.runs/synth_1/.Xil/Vivado-1768-TX/realtime/system_rst_ps8_0_100M_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'system_rst_ps8_0_100M_0' (12#1) [C:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.runs/synth_1/.Xil/Vivado-1768-TX/realtime/system_rst_ps8_0_100M_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'mb_reset' of module 'system_rst_ps8_0_100M_0' is unconnected for instance 'rst_ps8_0_100M' [C:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.srcs/sources_1/bd/system/synth/system.v:818]
+WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'system_rst_ps8_0_100M_0' is unconnected for instance 'rst_ps8_0_100M' [C:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.srcs/sources_1/bd/system/synth/system.v:818]
+WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'system_rst_ps8_0_100M_0' is unconnected for instance 'rst_ps8_0_100M' [C:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.srcs/sources_1/bd/system/synth/system.v:818]
+WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'system_rst_ps8_0_100M_0' is unconnected for instance 'rst_ps8_0_100M' [C:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.srcs/sources_1/bd/system/synth/system.v:818]
+WARNING: [Synth 8-7023] instance 'rst_ps8_0_100M' of module 'system_rst_ps8_0_100M_0' has 10 connections declared, but only 6 given [C:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.srcs/sources_1/bd/system/synth/system.v:818]
+INFO: [Synth 8-6157] synthesizing module 'system_xlconcat_0_0' [c:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.srcs/sources_1/bd/system/ip/system_xlconcat_0_0/synth/system_xlconcat_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'xlconcat_v2_1_3_xlconcat' [c:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.srcs/sources_1/bd/system/ipshared/442e/hdl/xlconcat_v2_1_vl_rfs.v:14]
+	Parameter IN0_WIDTH bound to: 1 - type: integer 
+	Parameter IN1_WIDTH bound to: 1 - type: integer 
+	Parameter IN2_WIDTH bound to: 1 - type: integer 
+	Parameter IN3_WIDTH bound to: 1 - type: integer 
+	Parameter IN4_WIDTH bound to: 1 - type: integer 
+	Parameter IN5_WIDTH bound to: 1 - type: integer 
+	Parameter IN6_WIDTH bound to: 1 - type: integer 
+	Parameter IN7_WIDTH bound to: 1 - type: integer 
+	Parameter IN8_WIDTH bound to: 1 - type: integer 
+	Parameter IN9_WIDTH bound to: 1 - type: integer 
+	Parameter IN10_WIDTH bound to: 1 - type: integer 
+	Parameter IN11_WIDTH bound to: 1 - type: integer 
+	Parameter IN12_WIDTH bound to: 1 - type: integer 
+	Parameter IN13_WIDTH bound to: 1 - type: integer 
+	Parameter IN14_WIDTH bound to: 1 - type: integer 
+	Parameter IN15_WIDTH bound to: 1 - type: integer 
+	Parameter IN16_WIDTH bound to: 1 - type: integer 
+	Parameter IN17_WIDTH bound to: 1 - type: integer 
+	Parameter IN18_WIDTH bound to: 1 - type: integer 
+	Parameter IN19_WIDTH bound to: 1 - type: integer 
+	Parameter IN20_WIDTH bound to: 1 - type: integer 
+	Parameter IN21_WIDTH bound to: 1 - type: integer 
+	Parameter IN22_WIDTH bound to: 1 - type: integer 
+	Parameter IN23_WIDTH bound to: 1 - type: integer 
+	Parameter IN24_WIDTH bound to: 1 - type: integer 
+	Parameter IN25_WIDTH bound to: 1 - type: integer 
+	Parameter IN26_WIDTH bound to: 1 - type: integer 
+	Parameter IN27_WIDTH bound to: 1 - type: integer 
+	Parameter IN28_WIDTH bound to: 1 - type: integer 
+	Parameter IN29_WIDTH bound to: 1 - type: integer 
+	Parameter IN30_WIDTH bound to: 1 - type: integer 
+	Parameter IN31_WIDTH bound to: 1 - type: integer 
+	Parameter dout_width bound to: 1 - type: integer 
+	Parameter NUM_PORTS bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlconcat_v2_1_3_xlconcat' (13#1) [c:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.srcs/sources_1/bd/system/ipshared/442e/hdl/xlconcat_v2_1_vl_rfs.v:14]
+INFO: [Synth 8-6155] done synthesizing module 'system_xlconcat_0_0' (14#1) [c:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.srcs/sources_1/bd/system/ip/system_xlconcat_0_0/synth/system_xlconcat_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'system_zynq_ultra_ps_e_0_0' [C:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.runs/synth_1/.Xil/Vivado-1768-TX/realtime/system_zynq_ultra_ps_e_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'system_zynq_ultra_ps_e_0_0' (15#1) [C:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.runs/synth_1/.Xil/Vivado-1768-TX/realtime/system_zynq_ultra_ps_e_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'maxigp2_awuser' of module 'system_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [C:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.srcs/sources_1/bd/system/synth/system.v:828]
+WARNING: [Synth 8-7071] port 'maxigp2_aruser' of module 'system_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [C:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.srcs/sources_1/bd/system/synth/system.v:828]
+WARNING: [Synth 8-7023] instance 'zynq_ultra_ps_e_0' of module 'system_zynq_ultra_ps_e_0_0' has 43 connections declared, but only 41 given [C:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.srcs/sources_1/bd/system/synth/system.v:828]
+INFO: [Synth 8-6155] done synthesizing module 'system' (16#1) [C:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.srcs/sources_1/bd/system/synth/system.v:593]
+INFO: [Synth 8-6155] done synthesizing module 'system_wrapper' (17#1) [C:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.srcs/sources_1/bd/system/hdl/system_wrapper.v:12]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1621.480 ; gain = 128.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1639.410 ; gain = 146.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1639.410 ; gain = 146.500
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 1651.402 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.srcs/sources_1/bd/system/ip/system_AXI_LITE_REG_0_0/system_AXI_LITE_REG_0_0/system_AXI_LITE_REG_0_0_in_context.xdc] for cell 'system_i/AXI_LITE_REG_0'
+Finished Parsing XDC File [c:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.srcs/sources_1/bd/system/ip/system_AXI_LITE_REG_0_0/system_AXI_LITE_REG_0_0/system_AXI_LITE_REG_0_0_in_context.xdc] for cell 'system_i/AXI_LITE_REG_0'
+Parsing XDC File [c:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.srcs/sources_1/bd/system/ip/system_axi_gpio_0_0/system_axi_gpio_0_0/system_axi_gpio_0_0_in_context.xdc] for cell 'system_i/axi_gpio_0'
+Finished Parsing XDC File [c:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.srcs/sources_1/bd/system/ip/system_axi_gpio_0_0/system_axi_gpio_0_0/system_axi_gpio_0_0_in_context.xdc] for cell 'system_i/axi_gpio_0'
+Parsing XDC File [c:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.srcs/sources_1/bd/system/ip/system_xbar_0/system_xbar_0/system_xbar_0_in_context.xdc] for cell 'system_i/ps8_0_axi_periph/xbar'
+Finished Parsing XDC File [c:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.srcs/sources_1/bd/system/ip/system_xbar_0/system_xbar_0/system_xbar_0_in_context.xdc] for cell 'system_i/ps8_0_axi_periph/xbar'
+Parsing XDC File [c:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.srcs/sources_1/bd/system/ip/system_rst_ps8_0_100M_0/system_rst_ps8_0_100M_0/system_rst_ps8_0_100M_0_in_context.xdc] for cell 'system_i/rst_ps8_0_100M'
+Finished Parsing XDC File [c:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.srcs/sources_1/bd/system/ip/system_rst_ps8_0_100M_0/system_rst_ps8_0_100M_0/system_rst_ps8_0_100M_0_in_context.xdc] for cell 'system_i/rst_ps8_0_100M'
+Parsing XDC File [c:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.srcs/sources_1/bd/system/ip/system_zynq_ultra_ps_e_0_0/system_zynq_ultra_ps_e_0_0/system_zynq_ultra_ps_e_0_0_in_context.xdc] for cell 'system_i/zynq_ultra_ps_e_0'
+WARNING: [Vivado 12-584] No ports matched ''. [c:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.srcs/sources_1/bd/system/ip/system_zynq_ultra_ps_e_0_0/system_zynq_ultra_ps_e_0_0/system_zynq_ultra_ps_e_0_0_in_context.xdc:2]
+Finished Parsing XDC File [c:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.srcs/sources_1/bd/system/ip/system_zynq_ultra_ps_e_0_0/system_zynq_ultra_ps_e_0_0/system_zynq_ultra_ps_e_0_0_in_context.xdc] for cell 'system_i/zynq_ultra_ps_e_0'
+Parsing XDC File [c:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.srcs/sources_1/bd/system/ip/system_auto_pc_0/system_auto_pc_0/system_auto_pc_0_in_context.xdc] for cell 'system_i/ps8_0_axi_periph/s00_couplers/auto_pc'
+Finished Parsing XDC File [c:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.srcs/sources_1/bd/system/ip/system_auto_pc_0/system_auto_pc_0/system_auto_pc_0_in_context.xdc] for cell 'system_i/ps8_0_axi_periph/s00_couplers/auto_pc'
+Parsing XDC File [C:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.srcs/constrs_1/imports/xdc/system.xdc]
+WARNING: [Vivado 12-584] No ports matched 'i2c_0_sda_io'. [C:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.srcs/constrs_1/imports/xdc/system.xdc:12]
+WARNING: [Vivado 12-584] No ports matched 'i2c_0_sda_io'. [C:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.srcs/constrs_1/imports/xdc/system.xdc:13]
+WARNING: [Vivado 12-584] No ports matched 'i2c_0_scl_io'. [C:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.srcs/constrs_1/imports/xdc/system.xdc:15]
+WARNING: [Vivado 12-584] No ports matched 'i2c_0_scl_io'. [C:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.srcs/constrs_1/imports/xdc/system.xdc:16]
+WARNING: [Vivado 12-584] No ports matched 'gpo_0[0]'. [C:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.srcs/constrs_1/imports/xdc/system.xdc:18]
+WARNING: [Vivado 12-584] No ports matched 'gpo_0[0]'. [C:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.srcs/constrs_1/imports/xdc/system.xdc:19]
+Finished Parsing XDC File [C:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.srcs/constrs_1/imports/xdc/system.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [C:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.srcs/constrs_1/imports/xdc/system.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/system_wrapper_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.srcs/constrs_1/imports/xdc/system.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/system_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/system_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1695.320 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2 instances were transformed.
+  IOBUF => IOBUF (IBUFCTRL, INBUF, OBUFT): 2 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1695.320 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1695.320 ; gain = 202.410
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu2cg-sfvc784-1-e
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1695.320 ; gain = 202.410
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for system_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for system_i/AXI_LITE_REG_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for system_i/VERSION. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for system_i/axi_gpio_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for system_i/ps8_0_axi_periph/xbar. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for system_i/ps8_0_axi_periph. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for system_i/rst_ps8_0_100M. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for system_i/xlconcat_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for system_i/zynq_ultra_ps_e_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for system_i/ps8_0_axi_periph/s00_couplers/auto_pc. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1695.320 ; gain = 202.410
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1695.320 ; gain = 202.410
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:72)
+BRAMs: 300 (col length: RAMB18 72 RAMB36 36)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1695.320 ; gain = 202.410
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:25 . Memory (MB): peak = 2346.152 ; gain = 853.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:25 . Memory (MB): peak = 2346.152 ; gain = 853.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:21 ; elapsed = 00:00:25 . Memory (MB): peak = 2365.781 ; gain = 872.871
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:23 ; elapsed = 00:00:27 . Memory (MB): peak = 2371.539 ; gain = 878.629
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:23 ; elapsed = 00:00:27 . Memory (MB): peak = 2371.539 ; gain = 878.629
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:23 ; elapsed = 00:00:27 . Memory (MB): peak = 2371.539 ; gain = 878.629
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:23 ; elapsed = 00:00:27 . Memory (MB): peak = 2371.539 ; gain = 878.629
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:23 ; elapsed = 00:00:27 . Memory (MB): peak = 2371.539 ; gain = 878.629
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:23 ; elapsed = 00:00:27 . Memory (MB): peak = 2371.539 ; gain = 878.629
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+---------------------------+----------+
+|      |BlackBox name              |Instances |
++------+---------------------------+----------+
+|1     |system_xbar_0              |         1|
+|2     |system_auto_pc_0           |         1|
+|3     |system_AXI_LITE_REG_0_0    |         1|
+|4     |system_axi_gpio_0_0        |         1|
+|5     |system_rst_ps8_0_100M_0    |         1|
+|6     |system_zynq_ultra_ps_e_0_0 |         1|
++------+---------------------------+----------+
+
+Report Cell Usage: 
++------+-------------------------+------+
+|      |Cell                     |Count |
++------+-------------------------+------+
+|1     |system_AXI_LITE_REG_0    |     1|
+|2     |system_auto_pc           |     1|
+|3     |system_axi_gpio_0        |     1|
+|4     |system_rst_ps8_0_100M    |     1|
+|5     |system_xbar              |     1|
+|6     |system_zynq_ultra_ps_e_0 |     1|
+|7     |IOBUF                    |     2|
++------+-------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:23 ; elapsed = 00:00:27 . Memory (MB): peak = 2371.539 ; gain = 878.629
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:23 . Memory (MB): peak = 2371.539 ; gain = 822.719
+Synthesis Optimization Complete : Time (s): cpu = 00:00:24 ; elapsed = 00:00:27 . Memory (MB): peak = 2371.539 ; gain = 878.629
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 2371.539 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2401.844 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2 instances were transformed.
+  IOBUF => IOBUF (IBUFCTRL, INBUF, OBUFT): 2 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+55 Infos, 16 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:31 ; elapsed = 00:00:37 . Memory (MB): peak = 2401.844 ; gain = 1289.707
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/txzing/Desktop/test_for_2cg/golden/vivado/vivado_proj/vivado_proj.runs/synth_1/system_wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file system_wrapper_utilization_synth.rpt -pb system_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Aug 12 16:01:28 2024...

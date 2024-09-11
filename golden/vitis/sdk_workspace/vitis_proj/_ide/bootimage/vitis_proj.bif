@@ -1,0 +1,7 @@
+//arch = zynqmp; split = false; format = BIN 
+the_ROM_image: 
+{ 
+ [bootloader, destination_cpu=a53-0] C:/Users/txzing/Desktop/test_for_2cg/golden/vitis/sdk_workspace/fsbl/Debug/fsbl.elf 
+ [destination_device=pl] C:/Users/txzing/Desktop/test_for_2cg/golden/vitis/sdk_workspace/vitis_proj/_ide/bitstream/system_wrapper.bit 
+ [destination_cpu = a53-0] C:/Users/txzing/Desktop/test_for_2cg/golden/vitis/sdk_workspace/vitis_proj/Debug/vitis_proj.elf 
+}

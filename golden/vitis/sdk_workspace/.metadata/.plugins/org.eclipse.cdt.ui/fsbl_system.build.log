@@ -1,0 +1,10 @@
+14:57:50 **** Incremental Build of configuration Debug for project fsbl_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 61643 C:/Users/txzing/Desktop/test_for_2cg/golden/vitis/sdk_workspace/system_wrapper/export/system_wrapper/system_wrapper.xpfm fsbl_domain C:/Users/txzing/Desktop/test_for_2cg/golden/vitis/sdk_workspace/fsbl_system/Debug/system.bif
+sdcard_gen --xpfm C:/Users/txzing/Desktop/test_for_2cg/golden/vitis/sdk_workspace/system_wrapper/export/system_wrapper/system_wrapper.xpfm --sys_config system_wrapper --bif C:/Users/txzing/Desktop/test_for_2cg/golden/vitis/sdk_workspace/fsbl_system/Debug/system.bif --bitstream C:/Users/txzing/Desktop/test_for_2cg/golden/vitis/sdk_workspace/fsbl/_ide/bitstream/system_wrapper.bit --elf C:/Users/txzing/Desktop/test_for_2cg/golden/vitis/sdk_workspace/fsbl/Debug/fsbl.elf,psu_cortexa53_0
+creating BOOT.BIN using C:/Users/txzing/Desktop/test_for_2cg/golden/vitis/sdk_workspace/fsbl/_ide/bitstream/system_wrapper.bit
+Running D:/Vivado/Vitis/2020.1/bin/bootgen -arch zynqmp -image C:/Users/txzing/Desktop/test_for_2cg/golden/vitis/sdk_workspace/fsbl_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+14:57:55 Build Finished (took 5s.238ms)
+
